@@ -1,0 +1,77 @@
+/* ------- Global ------- */
+body {
+  margin: 0;
+  font-family: "Kanit", "Roboto", sans-serif;
+  background: #fdfaf6; /* สีพื้นหลังเหมือนกระดาษ */
+  color: #3e3e3e;
+  line-height: 1.6;
+}
+
+/* ------- Container ------- */
+.MuiContainer-root {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.08);
+  border: 1px solid #e8dfd3; /* ขอบสีอ่อนๆ เหมือนขอบสมุด */
+}
+
+/* ------- Header ------- */
+h3 {
+  font-weight: 700;
+  color: #4b3f2f; /* สีน้ำตาลเข้มเหมือนไม้ */
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+.MuiTypography-subtitle1 {
+  font-size: 1.1rem;
+  color: #6d5f4f !important;
+}
+
+/* ------- Icon ------- */
+.MuiSvgIcon-root {
+  color: #6a994e !important; /* เขียวธรรมชาติ */
+}
+
+/* ------- Card ------- */
+.MuiCard-root {
+  border-radius: 12px !important;
+  cursor: pointer;
+  background: #fffef9; /* สีออกครีม เหมือนกระดาษ */
+  border: 1px solid #f1e8da;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.15) !important;
+  background: #f8f5f0 !important;
+}
+
+/* ------- Card Content ------- */
+.MuiCardContent-root {
+  padding: 1rem 1.5rem !important;
+}
+
+/* ------- Book Title ------- */
+.MuiTypography-h6 {
+  font-weight: 700 !important;
+  color: #4b3f2f;
+  margin-bottom: 0.4rem;
+}
+
+/* ------- Author Text ------- */
+.MuiTypography-body2 {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #5c5c5c;
+}
+
+/* ------- Loading ------- */
+.loading-text {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #6a994e;
+  margin-top: 2rem;
+  font-weight: 500;
+}
